@@ -8,17 +8,14 @@
 
 import UIKit
 
-//protocol FullCityHandler {
-//
-//    func cityChosen(cityName: String) {
-//    <#function body#>
-//    }
-//}
+protocol FullCityHandler: class {
+    func cityChosen(cityName: String)
+}
 
 class FullCityListController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    
+    weak var cityHandler: FullCityHandler? = nil
     
     var cities = [
         "Moscow",
@@ -34,6 +31,7 @@ class FullCityListController: UIViewController {
         super.viewDidLoad()
         
         tableView.dataSource = self
+        tableView.delegate = self
     }
 }
 
@@ -54,3 +52,12 @@ extension FullCityListController: UITableViewDataSource {
         fatalError()
     }
 }
+
+extension FullCityListController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let city = cities[indexPath.row]
+        cityHandler?.cityChosen(cityName: city)
+        navigationController?.popViewController(animated: true)
+    }
+}
+

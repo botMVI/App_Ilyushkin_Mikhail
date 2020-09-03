@@ -13,10 +13,10 @@
 		D567D05C24F3C4F100039168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D567D05B24F3C4F100039168 /* Assets.xcassets */; };
 		D567D05F24F3C4F100039168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */; };
 		D567D06724F8466F00039168 /* loginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D06624F8466F00039168 /* loginFormController.swift */; };
-		D567D06C24F84E1B00039168 /* AllCityesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D06B24F84E1B00039168 /* AllCityesCell.swift */; };
 		D567D07024F909FE00039168 /* FullCityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D06F24F909FE00039168 /* FullCityListController.swift */; };
-		D567D07224F90AF200039168 /* AllCityesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D07124F90AF200039168 /* AllCityesController.swift */; };
 		D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D07324F9227200039168 /* FavoriteCityList.swift */; };
+		D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */; };
+		D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,11 @@
 		D567D05E24F3C4F100039168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D567D06024F3C4F100039168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D567D06624F8466F00039168 /* loginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginFormController.swift; sourceTree = "<group>"; };
-		D567D06B24F84E1B00039168 /* AllCityesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCityesCell.swift; sourceTree = "<group>"; };
 		D567D06F24F909FE00039168 /* FullCityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCityListController.swift; sourceTree = "<group>"; };
-		D567D07124F90AF200039168 /* AllCityesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCityesController.swift; sourceTree = "<group>"; };
 		D567D07324F9227200039168 /* FavoriteCityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCityList.swift; sourceTree = "<group>"; };
+		D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App_Ilyushkin_Mikhail.entitlements; sourceTree = "<group>"; };
+		D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCollectionViewController.swift; sourceTree = "<group>"; };
+		D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D565DF032501457A005FE85B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D567D06624F8466F00039168 /* loginFormController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D565DF0425014591005FE85B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D567D05224F3C4EE00039168 /* AppDelegate.swift */,
+				D567D05424F3C4EE00039168 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		D565DF05250145A6005FE85B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D567D05824F3C4EE00039168 /* Main.storyboard */,
+				D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		D567D04624F3C4EE00039168 = {
 			isa = PBXGroup;
 			children = (
@@ -64,15 +91,15 @@
 		D567D05124F3C4EE00039168 /* App_Ilyushkin_Mikhail */ = {
 			isa = PBXGroup;
 			children = (
+				D5DD80B32501531A00CED7B9 /* CityWeather */,
+				D565DF032501457A005FE85B /* Login */,
 				D567D07524F922AA00039168 /* FavoriteCityList */,
 				D567D06824F84D9000039168 /* AllCities */,
-				D567D05224F3C4EE00039168 /* AppDelegate.swift */,
-				D567D05424F3C4EE00039168 /* SceneDelegate.swift */,
-				D567D06624F8466F00039168 /* loginFormController.swift */,
-				D567D05824F3C4EE00039168 /* Main.storyboard */,
+				D565DF05250145A6005FE85B /* Storyboard */,
+				D565DF0425014591005FE85B /* Delegate */,
 				D567D05B24F3C4F100039168 /* Assets.xcassets */,
-				D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */,
 				D567D06024F3C4F100039168 /* Info.plist */,
+				D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */,
 			);
 			path = App_Ilyushkin_Mikhail;
 			sourceTree = "<group>";
@@ -80,8 +107,6 @@
 		D567D06824F84D9000039168 /* AllCities */ = {
 			isa = PBXGroup;
 			children = (
-				D567D06B24F84E1B00039168 /* AllCityesCell.swift */,
-				D567D07124F90AF200039168 /* AllCityesController.swift */,
 				D567D06F24F909FE00039168 /* FullCityListController.swift */,
 			);
 			path = AllCities;
@@ -93,6 +118,15 @@
 				D567D07324F9227200039168 /* FavoriteCityList.swift */,
 			);
 			path = FavoriteCityList;
+			sourceTree = "<group>";
+		};
+		D5DD80B32501531A00CED7B9 /* CityWeather */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */,
+				D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */,
+			);
+			path = CityWeather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D567D07224F90AF200039168 /* AllCityesController.swift in Sources */,
+				D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */,
+				D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */,
 				D567D05324F3C4EE00039168 /* AppDelegate.swift in Sources */,
 				D567D05524F3C4EE00039168 /* SceneDelegate.swift in Sources */,
 				D567D07024F909FE00039168 /* FullCityListController.swift in Sources */,
 				D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */,
-				D567D06C24F84E1B00039168 /* AllCityesCell.swift in Sources */,
 				D567D06724F8466F00039168 /* loginFormController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +350,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App_Ilyushkin_Mikhail/App_Ilyushkin_Mikhail.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P2H6D9L7L;
 				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,6 +362,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilstud.App-Ilyushkin-Mikhail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,7 +374,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App_Ilyushkin_Mikhail/App_Ilyushkin_Mikhail.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P2H6D9L7L;
 				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +386,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilstud.App-Ilyushkin-Mikhail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
