@@ -17,6 +17,9 @@
 		D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D07324F9227200039168 /* FavoriteCityList.swift */; };
 		D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */; };
 		D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */; };
+		D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */; };
+		D5F1B9572504F74300149D78 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */; };
+		D5F1B95E25053B4500149D78 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App_Ilyushkin_Mikhail.entitlements; sourceTree = "<group>"; };
 		D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCollectionViewController.swift; sourceTree = "<group>"; };
 		D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +60,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		D565DF0425014591005FE85B /* Delegate */ = {
+		D565DF0425014591005FE85B /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				D567D05224F3C4EE00039168 /* AppDelegate.swift */,
 				D567D05424F3C4EE00039168 /* SceneDelegate.swift */,
+				D567D06024F3C4F100039168 /* Info.plist */,
+				D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */,
 			);
-			path = Delegate;
+			path = Other;
 			sourceTree = "<group>";
 		};
 		D565DF05250145A6005FE85B /* Storyboard */ = {
@@ -91,42 +99,83 @@
 		D567D05124F3C4EE00039168 /* App_Ilyushkin_Mikhail */ = {
 			isa = PBXGroup;
 			children = (
-				D5DD80B32501531A00CED7B9 /* CityWeather */,
+				D5F1B9532504049700149D78 /* Friends */,
+				D5F1B9522504048800149D78 /* Groups */,
 				D565DF032501457A005FE85B /* Login */,
-				D567D07524F922AA00039168 /* FavoriteCityList */,
-				D567D06824F84D9000039168 /* AllCities */,
 				D565DF05250145A6005FE85B /* Storyboard */,
-				D565DF0425014591005FE85B /* Delegate */,
+				D565DF0425014591005FE85B /* Other */,
 				D567D05B24F3C4F100039168 /* Assets.xcassets */,
-				D567D06024F3C4F100039168 /* Info.plist */,
-				D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */,
 			);
 			path = App_Ilyushkin_Mikhail;
 			sourceTree = "<group>";
 		};
-		D567D06824F84D9000039168 /* AllCities */ = {
+		D567D06824F84D9000039168 /* FullGroupsList */ = {
 			isa = PBXGroup;
 			children = (
 				D567D06F24F909FE00039168 /* FullCityListController.swift */,
 			);
-			path = AllCities;
+			path = FullGroupsList;
 			sourceTree = "<group>";
 		};
-		D567D07524F922AA00039168 /* FavoriteCityList */ = {
+		D567D07524F922AA00039168 /* FavoriteGroupList */ = {
 			isa = PBXGroup;
 			children = (
 				D567D07324F9227200039168 /* FavoriteCityList.swift */,
 			);
-			path = FavoriteCityList;
+			path = FavoriteGroupList;
 			sourceTree = "<group>";
 		};
-		D5DD80B32501531A00CED7B9 /* CityWeather */ = {
+		D5DD80B32501531A00CED7B9 /* CurrentGroupInfo */ = {
 			isa = PBXGroup;
 			children = (
 				D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */,
 				D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */,
 			);
-			path = CityWeather;
+			path = CurrentGroupInfo;
+			sourceTree = "<group>";
+		};
+		D5F1B9522504048800149D78 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD80B32501531A00CED7B9 /* CurrentGroupInfo */,
+				D567D06824F84D9000039168 /* FullGroupsList */,
+				D567D07524F922AA00039168 /* FavoriteGroupList */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		D5F1B9532504049700149D78 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B95A250524BB00149D78 /* FriendsPhoto */,
+				D5F1B9592505113B00149D78 /* SelectedFriend */,
+				D5F1B9582505111500149D78 /* FriendsList */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		D5F1B9582505111500149D78 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */,
+				D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		D5F1B9592505113B00149D78 /* SelectedFriend */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */,
+			);
+			path = SelectedFriend;
+			sourceTree = "<group>";
+		};
+		D5F1B95A250524BB00149D78 /* FriendsPhoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FriendsPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +249,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F1B9572504F74300149D78 /* FriendsTableViewCell.swift in Sources */,
 				D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */,
 				D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */,
+				D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */,
 				D567D05324F3C4EE00039168 /* AppDelegate.swift in Sources */,
 				D567D05524F3C4EE00039168 /* SceneDelegate.swift in Sources */,
+				D5F1B95E25053B4500149D78 /* FriendsCollectionViewController.swift in Sources */,
 				D567D07024F909FE00039168 /* FullCityListController.swift in Sources */,
 				D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */,
 				D567D06724F8466F00039168 /* loginFormController.swift in Sources */,
@@ -355,7 +407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
-				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/App_Ilyushkin_Mikhail/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +431,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2H6D9L7L;
-				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/App_Ilyushkin_Mikhail/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

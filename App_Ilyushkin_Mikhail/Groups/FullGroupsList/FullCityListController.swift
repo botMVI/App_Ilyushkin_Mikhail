@@ -56,6 +56,7 @@ extension FullCityListController: UITableViewDataSource {
 extension FullCityListController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let city = cities[indexPath.row]
+        
         cityHandler?.cityChosen(cityName: city)
         navigationController?.popViewController(animated: true)
     }
