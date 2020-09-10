@@ -22,13 +22,11 @@ class CityWeatherCollectionViewController: UICollectionViewController {
         super.viewDidLoad()
     }
 
-    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         print(segue.destination)
     }
 
-    // MARK: UICollectionViewDataSource
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return cityWeather.count

@@ -119,6 +119,11 @@
                         <viewLayoutGuide key="safeArea" id="4hG-oc-0cQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="hlI-l8-TOR"/>
+                    <connections>
+                        <outlet property="loginInput" destination="Hpl-PD-5Oe" id="1wb-lg-PIj"/>
+                        <outlet property="pwdInput" destination="e2D-uu-T3v" id="mvC-FU-nqK"/>
+                        <outlet property="scrollView" destination="bd9-fF-WCi" id="sZK-uI-9RZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aig-Cx-gYm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,6 +224,9 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="1k0-9s-E3u"/>
+                    <connections>
+                        <outlet property="selectedImage" destination="8Fc-EC-bCf" id="YVu-a3-yZ7"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dxp-9T-5Oe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
