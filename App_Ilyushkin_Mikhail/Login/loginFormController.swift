@@ -26,7 +26,6 @@ class loginFormController: UIViewController {
         if !checkResult {
             showLoginError()
         }
-        
         return checkResult
     }
     
@@ -48,10 +47,7 @@ class loginFormController: UIViewController {
         let alter = UIAlertController(title: "Ошибка", message: "Введены не верные данные пользователя", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-        
         alter.addAction(action)
-        
         present(alter, animated: true, completion: nil)
     }
-
 }

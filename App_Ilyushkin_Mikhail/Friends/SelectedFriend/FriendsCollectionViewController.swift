@@ -31,7 +31,7 @@ class FriendsCollectionViewController: UICollectionViewController {
     }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: .secNum, for: indexPath) as! WeatherCellCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: .secNum, for: indexPath) as? WeatherCellCollectionViewCell
         let weather = cityWeather[indexPath.row]
          
             cell.textLabel.text = "\(weather)"
@@ -39,17 +39,15 @@ class FriendsCollectionViewController: UICollectionViewController {
         return cell
     }
 
-//
-//    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of items
-//        return 0
-//    }
-//
-//    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-//
-//        // Configure the cell
-//
-//        return cell
-//    }
+
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return 0
+    }
+
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
+
+        return cell
+    }
 }
