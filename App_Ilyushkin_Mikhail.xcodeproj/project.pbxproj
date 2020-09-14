@@ -19,6 +19,7 @@
 		D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D07324F9227200039168 /* FavoriteCityList.swift */; };
 		D56A2664250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2663250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift */; };
 		D56A2666250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2665250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift */; };
+		D56A2668250D0C2200D131C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2667250D0C2200D131C4 /* User.swift */; };
 		D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */; };
 		D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */; };
 		D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */; };
@@ -41,6 +42,7 @@
 		D567D07324F9227200039168 /* FavoriteCityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCityList.swift; sourceTree = "<group>"; };
 		D56A2663250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		D56A2665250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D56A2667250D0C2200D131C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App_Ilyushkin_Mikhail.entitlements; sourceTree = "<group>"; };
 		D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCollectionViewController.swift; sourceTree = "<group>"; };
 		D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				D55F93A7250AA04500EF0C06 /* CircleImage.swift */,
 				D55F93A9250AA3AF00EF0C06 /* GradientView.swift */,
+				D56A2667250D0C2200D131C4 /* User.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */,
 				D567D05324F3C4EE00039168 /* AppDelegate.swift in Sources */,
 				D567D05524F3C4EE00039168 /* SceneDelegate.swift in Sources */,
+				D56A2668250D0C2200D131C4 /* User.swift in Sources */,
 				D56A2664250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift in Sources */,
 				D56A2666250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift in Sources */,
 				D5F1B95E25053B4500149D78 /* FriendsCollectionViewController.swift in Sources */,

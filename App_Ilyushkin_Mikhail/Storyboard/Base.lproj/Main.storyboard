@@ -137,9 +137,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="ScJ-6S-OnB">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="friendCell" id="L7D-wd-95E" customClass="FriendsTableViewCell" customModule="App_Ilyushkin_Mikhail" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="72" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L7D-wd-95E" id="mU3-6G-aab">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -157,9 +162,6 @@
                                                 <constraint firstAttribute="width" constant="100" id="3cc-Ky-Bc7"/>
                                                 <constraint firstAttribute="height" constant="45" id="SVZ-dn-SMr"/>
                                             </constraints>
-                                            <connections>
-                                                <outlet property="circleImages" destination="mU3-6G-aab" id="yst-c6-fff"/>
-                                            </connections>
                                         </imageView>
                                     </subviews>
                                     <constraints>
@@ -176,6 +178,7 @@
                     <navigationItem key="navigationItem" title="Друзья" id="Mlu-dc-Mjj"/>
                     <connections>
                         <outlet property="friendTableView" destination="LfH-NL-GQ8" id="qWl-Mu-M0e"/>
+                        <outlet property="searchBar" destination="ScJ-6S-OnB" id="6I1-cy-Nyg"/>
                         <segue destination="IOY-41-kYu" kind="show" identifier="currentFriend" id="TFa-fj-fOO"/>
                     </connections>
                 </tableViewController>
@@ -209,6 +212,11 @@
                                             <rect key="frame" x="0.0" y="8" width="140" height="123"/>
                                             <gestureRecognizers/>
                                         </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uk7-0Q-XUN">
+                                            <rect key="frame" x="95" y="105" width="29" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="1" image="heart" catalog="system"/>
+                                        </button>
                                     </subviews>
                                     <gestureRecognizers/>
                                     <constraints>
@@ -441,6 +449,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="mini_magick20190816-144-tdpsdr" width="865" height="1024"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>

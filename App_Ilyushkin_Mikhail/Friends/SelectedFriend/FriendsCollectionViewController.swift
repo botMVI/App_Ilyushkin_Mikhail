@@ -30,24 +30,12 @@ class FriendsCollectionViewController: UICollectionViewController {
         selectedImage.image = UIImage(named: final_image)
     }
 
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: .secNum, for: indexPath) as? WeatherCellCollectionViewCell
-        let weather = cityWeather[indexPath.row]
-         
-            cell.textLabel.text = "\(weather)"
-         
-        return cell
-    }
-
-
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        return 0
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-
-        return cell
-    }
+//    override func numberOfSections(in collectionView: UICollectionView) -> Int {
+//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: .secNum, for: indexPath) as? WeatherCellCollectionViewCell
+//        let weather = cityWeather[indexPath.row]
+//
+//            cell.textLabel.text = "\(weather)"
+//
+//        return cell
+//    }
 }
