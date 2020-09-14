@@ -7,23 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D55F93A8250AA04500EF0C06 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F93A7250AA04500EF0C06 /* CircleImage.swift */; };
+		D55F93AA250AA3AF00EF0C06 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F93A9250AA3AF00EF0C06 /* GradientView.swift */; };
 		D567D05324F3C4EE00039168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D05224F3C4EE00039168 /* AppDelegate.swift */; };
 		D567D05524F3C4EE00039168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D05424F3C4EE00039168 /* SceneDelegate.swift */; };
-		D567D05724F3C4EE00039168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D05624F3C4EE00039168 /* ViewController.swift */; };
 		D567D05A24F3C4EE00039168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D567D05824F3C4EE00039168 /* Main.storyboard */; };
 		D567D05C24F3C4F100039168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D567D05B24F3C4F100039168 /* Assets.xcassets */; };
 		D567D05F24F3C4F100039168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */; };
+		D567D06724F8466F00039168 /* loginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D06624F8466F00039168 /* loginFormController.swift */; };
+		D567D07024F909FE00039168 /* FullCityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D06F24F909FE00039168 /* FullCityListController.swift */; };
+		D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D07324F9227200039168 /* FavoriteCityList.swift */; };
+		D56A2664250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2663250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift */; };
+		D56A2666250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2665250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift */; };
+		D56A2668250D0C2200D131C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A2667250D0C2200D131C4 /* User.swift */; };
+		D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */; };
+		D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */; };
+		D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */; };
+		D5F1B9572504F74300149D78 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */; };
+		D5F1B95E25053B4500149D78 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D55F93A7250AA04500EF0C06 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D55F93A9250AA3AF00EF0C06 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D567D04F24F3C4EE00039168 /* App_Ilyushkin_Mikhail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Ilyushkin_Mikhail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D567D05224F3C4EE00039168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D567D05424F3C4EE00039168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D567D05624F3C4EE00039168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D567D05924F3C4EE00039168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D567D05B24F3C4F100039168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D567D05E24F3C4F100039168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D567D06024F3C4F100039168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D567D06624F8466F00039168 /* loginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginFormController.swift; sourceTree = "<group>"; };
+		D567D06F24F909FE00039168 /* FullCityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCityListController.swift; sourceTree = "<group>"; };
+		D567D07324F9227200039168 /* FavoriteCityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCityList.swift; sourceTree = "<group>"; };
+		D56A2663250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		D56A2665250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D56A2667250D0C2200D131C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App_Ilyushkin_Mikhail.entitlements; sourceTree = "<group>"; };
+		D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherCollectionViewController.swift; sourceTree = "<group>"; };
+		D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +62,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D55F93A6250A9E7100EF0C06 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D55F93A7250AA04500EF0C06 /* CircleImage.swift */,
+				D55F93A9250AA3AF00EF0C06 /* GradientView.swift */,
+				D56A2667250D0C2200D131C4 /* User.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		D565DF032501457A005FE85B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D567D06624F8466F00039168 /* loginFormController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D565DF0425014591005FE85B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D567D05B24F3C4F100039168 /* Assets.xcassets */,
+				D567D05224F3C4EE00039168 /* AppDelegate.swift */,
+				D567D05424F3C4EE00039168 /* SceneDelegate.swift */,
+				D567D06024F3C4F100039168 /* Info.plist */,
+				D5868E6F250005A900EC2129 /* App_Ilyushkin_Mikhail.entitlements */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D565DF05250145A6005FE85B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D567D05824F3C4EE00039168 /* Main.storyboard */,
+				D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		D567D04624F3C4EE00039168 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +120,85 @@
 		D567D05124F3C4EE00039168 /* App_Ilyushkin_Mikhail */ = {
 			isa = PBXGroup;
 			children = (
-				D567D05224F3C4EE00039168 /* AppDelegate.swift */,
-				D567D05424F3C4EE00039168 /* SceneDelegate.swift */,
-				D567D05624F3C4EE00039168 /* ViewController.swift */,
-				D567D05824F3C4EE00039168 /* Main.storyboard */,
-				D567D05B24F3C4F100039168 /* Assets.xcassets */,
-				D567D05D24F3C4F100039168 /* LaunchScreen.storyboard */,
-				D567D06024F3C4F100039168 /* Info.plist */,
+				D5F1B9532504049700149D78 /* Friends */,
+				D5F1B9522504048800149D78 /* Groups */,
+				D565DF032501457A005FE85B /* Login */,
+				D565DF05250145A6005FE85B /* Storyboard */,
+				D55F93A6250A9E7100EF0C06 /* Modal */,
+				D565DF0425014591005FE85B /* Other */,
 			);
 			path = App_Ilyushkin_Mikhail;
+			sourceTree = "<group>";
+		};
+		D567D06824F84D9000039168 /* FullGroupsList */ = {
+			isa = PBXGroup;
+			children = (
+				D567D06F24F909FE00039168 /* FullCityListController.swift */,
+			);
+			path = FullGroupsList;
+			sourceTree = "<group>";
+		};
+		D567D07524F922AA00039168 /* FavoriteGroupList */ = {
+			isa = PBXGroup;
+			children = (
+				D567D07324F9227200039168 /* FavoriteCityList.swift */,
+			);
+			path = FavoriteGroupList;
+			sourceTree = "<group>";
+		};
+		D5DD80B32501531A00CED7B9 /* CurrentGroupInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD80B625015F0000CED7B9 /* CityWeatherCollectionViewController.swift */,
+				D5DD80B82501623800CED7B9 /* WeatherCellCollectionViewCell.swift */,
+			);
+			path = CurrentGroupInfo;
+			sourceTree = "<group>";
+		};
+		D5F1B9522504048800149D78 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD80B32501531A00CED7B9 /* CurrentGroupInfo */,
+				D567D06824F84D9000039168 /* FullGroupsList */,
+				D567D07524F922AA00039168 /* FavoriteGroupList */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		D5F1B9532504049700149D78 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B95A250524BB00149D78 /* FriendsPhoto */,
+				D5F1B9592505113B00149D78 /* SelectedFriend */,
+				D5F1B9582505111500149D78 /* FriendsList */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		D5F1B9582505111500149D78 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B9542504ED1600149D78 /* FriendsTableViewController.swift */,
+				D5F1B9562504F74300149D78 /* FriendsTableViewCell.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		D5F1B9592505113B00149D78 /* SelectedFriend */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1B95D25053B4500149D78 /* FriendsCollectionViewController.swift */,
+			);
+			path = SelectedFriend;
+			sourceTree = "<group>";
+		};
+		D5F1B95A250524BB00149D78 /* FriendsPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				D56A2663250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift */,
+				D56A2665250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift */,
+			);
+			path = FriendsPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +272,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D567D05724F3C4EE00039168 /* ViewController.swift in Sources */,
+				D5F1B9572504F74300149D78 /* FriendsTableViewCell.swift in Sources */,
+				D5DD80B92501623800CED7B9 /* WeatherCellCollectionViewCell.swift in Sources */,
+				D55F93AA250AA3AF00EF0C06 /* GradientView.swift in Sources */,
+				D5DD80B725015F0000CED7B9 /* CityWeatherCollectionViewController.swift in Sources */,
+				D55F93A8250AA04500EF0C06 /* CircleImage.swift in Sources */,
+				D5F1B9552504ED1600149D78 /* FriendsTableViewController.swift in Sources */,
 				D567D05324F3C4EE00039168 /* AppDelegate.swift in Sources */,
 				D567D05524F3C4EE00039168 /* SceneDelegate.swift in Sources */,
+				D56A2668250D0C2200D131C4 /* User.swift in Sources */,
+				D56A2664250AC0E800D131C4 /* FriendsPhotoCollectionViewController.swift in Sources */,
+				D56A2666250AC23800D131C4 /* FriendsPhotoCollectionViewCell.swift in Sources */,
+				D5F1B95E25053B4500149D78 /* FriendsCollectionViewController.swift in Sources */,
+				D567D07024F909FE00039168 /* FullCityListController.swift in Sources */,
+				D567D07424F9227200039168 /* FavoriteCityList.swift in Sources */,
+				D567D06724F8466F00039168 /* loginFormController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +430,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
+				DEVELOPMENT_TEAM = 4P2H6D9L7L;
+				INFOPLIST_FILE = "$(SRCROOT)/App_Ilyushkin_Mikhail/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilstud.App-Ilyushkin-Mikhail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +453,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = App_Ilyushkin_Mikhail/Info.plist;
+				DEVELOPMENT_TEAM = 4P2H6D9L7L;
+				INFOPLIST_FILE = "$(SRCROOT)/App_Ilyushkin_Mikhail/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ilstud.App-Ilyushkin-Mikhail";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
